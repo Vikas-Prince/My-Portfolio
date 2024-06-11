@@ -69,6 +69,7 @@ var typed = new Typed(".role", {
 
 ScrollReveal({
   reset: true,
+  // distance: "80px",
   distance: "80px",
   duration: 2000,
   delay: 200,
@@ -77,8 +78,8 @@ ScrollReveal({
 ScrollReveal().reveal(".home-body", { origin: "top" });
 ScrollReveal().reveal(".education-experience", { origin: "top" });
 ScrollReveal().reveal(".projects", { origin: "top" });
-// ScrollReveal().reveal(".certificates", { origin: "top" });
 ScrollReveal().reveal("#mySkills", { origin: "top" });
+// ScrollReveal().reveal(".certificates", { origin: "top" });
 // ScrollReveal().reveal(".contact-section", { origin: "top" });
 // ScrollReveal().reveal(".contact-flex", { origin: "bottom" });
 ScrollReveal().reveal(".home-body h1", { origin: "left" });
