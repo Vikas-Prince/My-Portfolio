@@ -20,9 +20,9 @@ var certificates = [
     link: "Images/webdev.png",
   },
   {
-    image: "Images/Infosys-certified-frontend",
+    image: "Images/Infosys-certified-frontend.jpg",
     title: "Infosys Certified FrontEnd Developer",
-    link: "Images/Infosys-certified-frontend",
+    link: "Images/Infosys-certified-frontend.jpg",
   },
 ];
 
