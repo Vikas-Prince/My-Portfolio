@@ -1,28 +1,45 @@
 var certificates = [
   {
+    id: 1,
     image: "Images/certificate.png",
     title: "Cisco Networking Essentials",
     link: "Images/certificate.png",
   },
   {
+    id: 2,
+    image: "Images/Mern-Stack.jpg",
+    title: "Infosys Certified MERN Stack Developer",
+    link: "Images/Mern-Stack.pdf",
+  },
+  {
+    id: 3,
     image: "Images/webdev.png",
     title: "Web Development",
     link: "Images/webdev.png",
   },
   {
-    image: "Images/webdev.png",
-    title: "jQuery UI Development",
-    link: "Images/webdev.png",
+    id: 4,
+    image: "Images/React-Developer.jpg",
+    title: "React Frontend Developer",
+    link: "Images/React-Developer.pdf",
   },
   {
+    id: 5,
     image: "Images/webdev.png",
     title: "Master in Full Stack Development",
     link: "Images/webdev.png",
   },
   {
+    id: 6,
     image: "Images/Infosys-certified-frontend.jpg",
     title: "Infosys Certified FrontEnd Developer",
-    link: "Images/Infosys-certified-frontend.jpg",
+    link: "Images/Infosys-certified-frontend.pdf",
+  },
+  {
+    id: 7,
+    image: "Images/postman.png",
+    title: "Postman API Fundamentals Student Expert",
+    link: "Images/postman.png",
   },
 ];
 
