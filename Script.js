@@ -23,12 +23,12 @@ var certificates = [
     title: "React Frontend Developer",
     link: "Images/React-Developer.pdf",
   },
-  {
-    id: 5,
-    image: "Images/webdev.png",
-    title: "Master in Full Stack Development",
-    link: "Images/webdev.png",
-  },
+  // {
+  //   id: 5,
+  //   image: "Images/webdev.png",
+  //   title: "Master in Full Stack Development",
+  //   link: "Images/webdev.png",
+  // },
   {
     id: 6,
     image: "Images/Infosys-certified-frontend.jpg",
@@ -53,27 +53,27 @@ var projects = [
   {
     image: "Images/facebook.png",
     title: "Facebook Clone",
-    repoLink: "https://github.com/Vikas-Prince/Fresh-Cart.git",
-    demoLink: "https://github.com/Vikas-Prince/Fresh-Cart.git",
+    repoLink: "https://github.com/Vikas-Prince/Static-Facebook-clone-.git",
+    demoLink: "https://static-facebook.netlify.app",
   },
   {
-    image: "Images/freshcart.png",
-    title: "Fresh Cart",
-    repoLink: "https://github.com/Vikas-Prince/Fresh-Cart.git",
-    demoLink: "https://github.com/Vikas-Prince/Fresh-Cart.git",
+    image: "Images/TechWave.png",
+    title: "TechWave News Website",
+    repoLink: "https://github.com/Vikas-Prince/TechWave-A-news-Website.git",
+    demoLink: "https://techwave-news.netlify.app",
   },
   {
-    image: "Images/freshcart.png",
-    title: "Fresh Cart",
-    repoLink: "https://github.com/Vikas-Prince/Fresh-Cart.git",
-    demoLink: "https://github.com/Vikas-Prince/Fresh-Cart.git",
+    image: "Images/netflix.png",
+    title: "Netflix Clone",
+    repoLink: "https://github.com/Vikas-Prince/netflix-clone.git",
+    demoLink: "https://netflix-clone-tmdb.netlify.app/",
   },
-  {
-    image: "Images/freshcart.png",
-    title: "Fresh Cart",
-    repoLink: "https://github.com/Vikas-Prince/Fresh-Cart.git",
-    demoLink: "https://github.com/Vikas-Prince/Fresh-Cart.git",
-  },
+  // {
+  //   image: "Images/freshcart.png",
+  //   title: "Fresh Cart",
+  //   repoLink: "https://github.com/Vikas-Prince/Fresh-Cart.git",
+  //   demoLink: "https://github.com/Vikas-Prince/Fresh-Cart.git",
+  // },
 ];
 
 var typed = new Typed(".role", {

@@ -1079,7 +1079,11 @@ body {
   color: #ffae00;
 }
 
-.img-height {
+.project-1 img {
+  height: 280px !important;
+}
+
+.certificate img {
   height: 250px !important;
 }
 
