@@ -9,7 +9,7 @@ var certificates = [
     id: 2,
     image: "Images/Mern-Stack.jpg",
     title: "Infosys Certified MERN Stack Developer",
-    link: "Images/Mern-Stack.pdf",
+    link: "Images/Mern-Stack.jpg",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ var certificates = [
     id: 4,
     image: "Images/React-Developer.jpg",
     title: "React Frontend Developer",
-    link: "Images/React-Developer.pdf",
+    link: "Images/React-Developer.jpg",
   },
   // {
   //   id: 5,
@@ -33,13 +33,20 @@ var certificates = [
     id: 6,
     image: "Images/Infosys-certified-frontend.jpg",
     title: "Infosys Certified FrontEnd Developer",
-    link: "Images/Infosys-certified-frontend.pdf",
+    link: "Images/Infosys-certified-frontend.jpg",
   },
   {
     id: 7,
     image: "Images/postman.png",
     title: "Postman API Fundamentals Student Expert",
     link: "Images/postman.png",
+  },
+
+  {
+    id: 8,
+    image: "Images/infosys-certified-mongo.png",
+    title: "Infosys Certified MongoDB Developer",
+    link: "Images/infosys-certified-mongo.png",
   },
 ];
 
@@ -77,7 +84,11 @@ var projects = [
 ];
 
 var typed = new Typed(".role", {
-  strings: ["Full Stack Developer. . ."],
+  strings: [
+    "Full Stack Developer. . .",
+    "DevOps Engineer",
+    "Solutions Architect",
+  ],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 2000,
