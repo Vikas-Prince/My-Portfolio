@@ -259,11 +259,11 @@ $(document).ready(function () {
 
 // Form Script
 window.env = {
-  PUBLIC_KEY: "PUBLIC_KEY",
+  PUB_KEY: process.env.PUBLIC_KEY,
 };
 
 (function () {
-  emailjs.init(window.env.PUBLIC_KEY);
+  emailjs.init(window.env.PUB_KEY);
 })();
 
 document
@@ -293,6 +293,7 @@ document
         },
         function (error) {
           showPopup();
+          console.log("Failed to send message: " + JSON.stringify(error));
           console.error("Failed to send email:", error);
         }
       );
