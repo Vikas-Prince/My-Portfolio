@@ -258,9 +258,12 @@ $(document).ready(function () {
 });
 
 // Form Script
+window.env = {
+  PUBLIC_KEY: "PUBLIC_KEY",
+};
 
 (function () {
-  emailjs.init("PUBLIC_KEY");
+  emailjs.init(window.env.PUBLIC_KEY);
 })();
 
 document
