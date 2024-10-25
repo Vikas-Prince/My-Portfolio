@@ -1482,3 +1482,20 @@ textarea:focus {
   margin: 10px 2px;
   cursor: pointer;
 }
+
+@media (max-width: 600px) {
+  .popup-content {
+    margin: 10% auto;
+    padding: 15px;
+    width: 90%;
+  }
+
+  .close {
+    font-size: 24px;
+  }
+
+  #ok-button {
+    padding: 10px 15px;
+    font-size: 18px;
+  }
+}
