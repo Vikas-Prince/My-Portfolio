@@ -22,7 +22,6 @@ This portfolio is built using:
 - HTML
 - CSS
 - JavaScript
-- [Any other technologies or frameworks you’ve used]
 
 # 📬 Contact
 
