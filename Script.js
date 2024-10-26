@@ -85,12 +85,12 @@ var projects = [
 
 var dev_projects = [
   {
-    image: "Images/freshcart.png",
+    image: "Images/master-architecture.png",
     title: "Complete End to End Pipeline",
     repoLink: "https://github.com/Vikas-Prince/End-to-End-CI-CD-Pipeline.git",
   },
   {
-    image: "Images/facebook.png",
+    image: "Images/microservicesarc.png",
     title: "Microservices Deployment",
     repoLink: "https://github.com/Vikas-Prince/MicroservicesAppDeployment.git",
   },
@@ -100,7 +100,7 @@ var dev_projects = [
     repoLink: "https://github.com/Vikas-Prince/K8s-FullStack-Deployment.git",
   },
   {
-    image: "Images/netflix.png",
+    image: "Images/redditarch.png",
     title: "Reddit App on AWS EKS",
     repoLink: "https://github.com/Vikas-Prince/Reddit-App-on-AWS-EKS.git",
   },
@@ -155,7 +155,7 @@ $(document).ready(function () {
     var projectHTML = `
                     <div class="slider-container card1">
                         <div class="project-1">
-                            <img src="${proj.image}" alt=""><br>
+                            <img src="${proj.image}" id="dev-img" alt=""><br>
                             <h3>${proj.title}</h3>
                             <div class="btn-section btn-center">
                               <a href="${proj.repoLink}" target="_blank" class="git-btn" >Git Repo</a>
