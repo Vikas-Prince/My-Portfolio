@@ -257,13 +257,10 @@ $(document).ready(function () {
   });
 });
 
-// Form Script
-window.env = {
-  PUB_KEY: process.env.PUBLIC_KEY,
-};
+const PUB_KEY = "v37uCcllXTcRyOMwg";
 
 (function () {
-  emailjs.init(window.env.PUB_KEY);
+  emailjs.init(PUB_KEY);
 })();
 
 document
@@ -295,6 +292,7 @@ document
           showPopup();
           console.log("Failed to send message: " + JSON.stringify(error));
           console.error("Failed to send email:", error);
+          document.getElementById("contact-form").reset();
         }
       );
   });
