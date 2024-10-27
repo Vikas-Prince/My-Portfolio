@@ -31,9 +31,9 @@ var fullstack_projects = [
 // DevOps Projects
 var dev_projects = [
   {
-    image: "Images/master-architecture.png",
-    title: "Complete End to End Pipeline",
-    repoLink: "https://github.com/Vikas-Prince/End-to-End-CI-CD-Pipeline.git",
+    image: "Images/k8s_architect.png",
+    title: "K8s Full Stack Deployment",
+    repoLink: "https://github.com/Vikas-Prince/K8s-FullStack-Deployment.git",
   },
   {
     image: "Images/microservicesarc.png",
@@ -41,9 +41,9 @@ var dev_projects = [
     repoLink: "https://github.com/Vikas-Prince/MicroservicesAppDeployment.git",
   },
   {
-    image: "Images/k8s_architect.png",
-    title: "K8s Full Stack Deployment",
-    repoLink: "https://github.com/Vikas-Prince/K8s-FullStack-Deployment.git",
+    image: "Images/master-architecture.png",
+    title: "Complete End to End Pipeline",
+    repoLink: "https://github.com/Vikas-Prince/End-to-End-CI-CD-Pipeline.git",
   },
   {
     image: "Images/redditarch.png",
@@ -51,7 +51,7 @@ var dev_projects = [
     repoLink: "https://github.com/Vikas-Prince/Reddit-App-on-AWS-EKS.git",
   },
   {
-    image: "Images/freshcart.png",
+    image: "Images/java_architecture.png",
     title: "JavaApp Deployment",
     repoLink: "https://github.com/Vikas-Prince/JavaApplicationDeployment.git",
   },
