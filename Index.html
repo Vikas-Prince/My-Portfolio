@@ -6,13 +6,11 @@
 
     <!-- -----------------FavIcon------------------>
     <link rel="icon" type="image/x-icon" href="Images/favicon (2).png"/>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
+
     <!-- -----------------Style Sheet------------------>
     <link rel="stylesheet" href="Style.css" />
-    <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>    <link rel="stylesheet" href="Slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>    
+    <link rel="stylesheet" href="Slick/slick.css">
 
     <title>Vikas Prince - Full Stack Engineer</title>
   </head>
@@ -109,6 +107,7 @@
           <img src="https://skillicons.dev/icons?i=kubernetes" alt="kubernetes logo" />
           <img src="https://icon.icepanel.io/Technology/svg/Argo-CD.svg" alt="argoCD">
           <img src="https://www.svgrepo.com/show/354051/maven.svg" alt="maven">
+          <img src="https://artifacthub.io/image/2de084fd-e3a4-45ad-a569-b4f672e9de85@3x" alt="nexus_repo">
           <img src="https://static-00.iconduck.com/assets.00/trivy-icon-312x512-i437m5pr.png" alt="trivy">
           <img src="https://icon.icepanel.io/Technology/svg/SonarQube.svg" alt="sonarqube">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg"  alt="ansible logo"  />
@@ -176,26 +175,26 @@
 
     <!------------------------- DevOps Project Start --------------------->
     <section class="project-slider " id="DevOps_projects">
-      <h2 class="heading projects main-headings">DevOps <span>Projects </span></h2>
-      <article class="slider" id="DevOps_container" ></article>
+      <h2 class="heading projects main-headings d_projects">DevOps <span>Projects </span></h2>
+      <article class="slider d_slider" id="DevOps_container" ></article>
     </section>
   
     <!---------------------Projects Section Start------------------ -->
     <section class="project-slider " id="Fullstack_projects">
-      <h2 class="heading projects main-headings"><span>Full Stack </span>Projects</h2>
-      <article class="slider" id="projectContainer" ></article>
+      <h2 class="heading projects f_projects main-headings"><span>Full Stack </span>Projects</h2>
+      <article class="slider f_slider" id="projectContainer" ></article>
     </section>  
 
     <!---------------------Certificates Section Start------------------ -->
     <section class="Certificate-slider " id="certificates">
-      <h2 class="heading certificates main-headings"> My <span> Certificates </span></h2>
-      <article class="c-slider" id="certificateContainer"></article>
+      <h2 class="heading certificates c_projects main-headings"> My <span> Certificates </span></h2>
+      <article class="slider c_slider" id="certificateContainer"></article>
     </section>
    
       <!---------------------Contact Section Start------------------ -->
     <section class="contact" id="contact">
       <h2 class="heading contact-section main-headings"><span>Contact</span> Me</h2>
-      <div class="contact-flex">
+      <div class="contact-flex contact_scroll">
         <div class="maps">
           <iframe id="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244221.183039964!2d82.08276261834624!3d16.976715227997357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3827ddaf59b4f7%3A0x92f8ddb9c89a4803!2sKakinada%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1706594796328!5m2!1sen!2sin" width="auto" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
@@ -232,7 +231,7 @@
           <p>Your message has been sent. Thank you for contacting us!</p>
           <button id="ok-button">OK</button>
       </div>
-  </div>
+    </div>
   
 
     <footer class="footer-section">
@@ -248,17 +247,28 @@
       </div>
     </footer>
 
-    
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <!-- Load jQuery first to ensure it is available for other scripts that depend on it -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>  
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>  
-    <script src="Script.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <!-- Slick Carousel (depends on jQuery) -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="Slick/slick.min.js"></script>
+
+    <!-- Typed.js for text animations -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- ScrollReveal for scroll animations -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- EmailJS for email sending functionality -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- Custom Scripts (depends on jQuery, Slick, Typed.js, ScrollReveal, and EmailJS) -->
+    <script src="certificates.js"></script>
+    <script src="projects.js"></script>
+    <script src="Script.js"></script>
+    <script src="email.js"></script>
   </body>
 </html>
